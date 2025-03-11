@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Message Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loginScreen">
+        <h2>Enter Password</h2>
+        <input type="password" id="passwordInput" placeholder="Enter Password">
+        <button onclick="checkPassword()">Login</button>
+        <p id="errorMessage" style="color: red; display: none;">Incorrect Password!</p>
+    </div>
+
+    <div id="messageBoard" style="display: none;">
+        <h2>Private Messages</h2>
+        <textarea id="messageInput" placeholder="Type your message..."></textarea>
+        <button onclick="saveMessage()">Save Message</button>
+        <h3>Messages:</h3>
+        <div id="messages"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
