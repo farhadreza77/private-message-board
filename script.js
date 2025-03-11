@@ -1,4 +1,4 @@
-const PASSWORD = "mysecret"; // Change this to your real password
+const PASSWORD = "tuhin1214"; // Change this to your real password
 
 function checkPassword() {
     const input = document.getElementById('passwordInput').value;
