@@ -9,14 +9,14 @@
 <body>
     <div id="loginScreen">
         <h2>Enter Password</h2>
-        <input type="password" id="passwordInput" placeholder="Enter Password">
+        <input type="password" id="passwordInput" name="password" placeholder="Enter Password">
         <button onclick="checkPassword()">Login</button>
         <p id="errorMessage" style="color: red; display: none;">Incorrect Password!</p>
     </div>
 
     <div id="messageBoard" style="display: none;">
         <h2>Private Messages</h2>
-        <textarea id="messageInput" placeholder="Type your message..."></textarea>
+        <textarea id="messageInput" name="message" placeholder="Type your message..."></textarea>
         <button onclick="saveMessage()">Save Message</button>
         <h3>Messages:</h3>
         <div id="messages"></div>
